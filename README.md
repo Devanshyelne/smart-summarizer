@@ -34,11 +34,16 @@ The entire training process — from raw CSV to a saved model — is documented 
 ---
 
 ## 📂 Project Structure
-├── app.py # FastAPI backend + inference logic
-├── index.html # Frontend UI
-├── Text_Summarizer.ipynb # Full training pipeline (data → fine-tuned model)
+## 📂 Project Structure
+
+```
+├── app.py                    # FastAPI backend + inference logic
+├── index.html                 # Frontend UI
+├── Text_Summarizer.ipynb      # Full training pipeline (data → fine-tuned model)
 ├── .gitignore
 └── README.md
+```
+
 > Note: `saved_summary_model/` (trained weights, ~230MB) is excluded from this repo due to GitHub's file size limits. See **Setup** below to generate it locally.
 
 ---
